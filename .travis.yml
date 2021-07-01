@@ -1,0 +1,9 @@
+os: linux
+dist: xenial
+
+vm:
+  size: 2x-large
+
+script:
+  - sudo apt -y update
+  - sudo apt -y upgrade
