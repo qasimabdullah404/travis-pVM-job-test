@@ -2,6 +2,9 @@ os: linux
 dist: focal
 arch: amd64
 
+vm:
+  size: large
+
 script:
   - nproc
   - free -m
