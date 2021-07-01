@@ -4,7 +4,7 @@ arch: amd64
 language: generic
 
 vm:
-  size: x-large
+  size: 2x-large
 
 script:
   - nproc
