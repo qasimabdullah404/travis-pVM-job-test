@@ -4,8 +4,10 @@ arch: amd64
 language: generic
 
 vm:
-  size: 2x-large
+  size: x-large
 
-script:
+before_script:
   - nproc
   - free -m
+
+script: true
