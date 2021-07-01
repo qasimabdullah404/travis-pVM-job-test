@@ -1,9 +1,10 @@
 os: linux
 dist: focal
 arch: amd64
+language: generic
 
 vm:
-  size: large
+  size: x-large
 
 script:
   - nproc
