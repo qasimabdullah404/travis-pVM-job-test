@@ -1,9 +1,7 @@
 os: linux
 dist: focal
-
-vm:
-  size: 2x-large
+arch: amd64
 
 script:
-  - sudo apt -y update
-  - sudo apt -y upgrade
+  - nproc
+  - free -m
