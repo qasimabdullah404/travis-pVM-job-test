@@ -9,5 +9,6 @@ vm:
 before_script:
   - nproc
   - free -m
+  - echo test
 
 script: true
